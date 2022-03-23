@@ -1,0 +1,25 @@
+﻿@page "/"
+
+<img src="blazor.svg" class="App-logo" alt="logo" />
+<span>@_dateTimeNow</span>
+
+@code {
+    
+    private string _dateTimeNow;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await ReRender();
+    }
+
+    private async Task ReRender()
+    {
+        while (true)
+        {
+            await Task.Delay(1000);
+            _dateTimeNow = DateTime.Now.ToString();
+
+            StateHasChanged();
+        }
+    }
+}
