@@ -13,3 +13,11 @@
 /JsInterop/ServerSideDemo/obj
 /JsInterop/WasmDemo/bin
 /JsInterop/WasmDemo/obj
+
+/SharedAssembly/.vs
+/SharedAssembly/Client/bin
+/SharedAssembly/Client/obj
+/SharedAssembly/Server/bin
+/SharedAssembly/Server/obj
+/SharedAssembly/Shared/bin
+/SharedAssembly/Shared/obj
