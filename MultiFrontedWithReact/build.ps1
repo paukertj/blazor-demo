@@ -14,4 +14,6 @@ Copy-Item -Path (Join-Path -Path $balzorOutputPath -ChildPath 'wwwroot\_framewor
 
 Set-Location (Join-Path -Path $currentPath -ChildPath 'react-app')
 
+npm update
+
 react-scripts start
