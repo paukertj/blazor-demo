@@ -1,0 +1,9 @@
+﻿@using Microsoft.JSInterop
+
+@inject IJSRuntime _jsRuntime
+
+<video @ref=@_videoElementReference playsinline autoplay></video>
+<canvas @ref=@_canvasElementReference class="demo-component-canvas"></canvas>
+
+<input type="button" value="Start recording" @onclick="@StartRecordingAsync">
+<input type="button" value="Take snapshot" @onclick="@TakeSnapshotAsync">

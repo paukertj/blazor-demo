@@ -1,0 +1,8 @@
+﻿@page "/"
+
+@using JsInteropDemo
+
+<DemoComponent @bind-Base64Png="@_base64png"></DemoComponent>
+
+<img src="@_base64png" />
+<textarea>@_base64png</textarea>

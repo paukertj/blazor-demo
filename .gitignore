@@ -5,3 +5,11 @@
 /MultiFrontedWithReact/react-app/node_modules
 /MultiFrontedWithReact/react-app/package-lock.json
 /MultiFrontedWithReact/react-app/public/_framework
+
+/JsInterop/.vs
+/JsInterop/JsInteropDemo/bin
+/JsInterop/JsInteropDemo/obj
+/JsInterop/ServerSideDemo/bin
+/JsInterop/ServerSideDemo/obj
+/JsInterop/WasmDemo/bin
+/JsInterop/WasmDemo/obj
